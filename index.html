@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Cheng&apos;s Blog" /></head>
 <body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Cheng&#39;s Blog</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/"><strong>Cheng&#39;s Blog</strong></a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -33,7 +33,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About Me</a></div>
+        <div class="trigger"><a class="page-link" href="/pages/about.html"><strong>About Me</strong></a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -46,7 +46,7 @@
     var title;
     window.onblur = function () {
       title = document.title;
-      document.title = "I'm missing you";
+      document.title = "I can't find u";
     };
     window.onfocus = function () {
       if (title) {
@@ -54,6 +54,16 @@
       }
     }
   </script>
+
+  <style>
+    body {
+      background-image: url('/assets/bg.png');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 
 <h2 class="post-list-heading">Posts</h2>
@@ -63,7 +73,12 @@
             Welcome to Jekyll!
           </a>
         </h3></li></ul>
-
+    <ul class="post-list"><li><span class="post-meta">Apr 2, 2022</span>
+        <h3>
+          <a class="post-link" href="/test-post">
+            This is a test post
+          </a>
+        </h3></li></ul>
     <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
 
       </div>

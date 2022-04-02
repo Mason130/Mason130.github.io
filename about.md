@@ -4,7 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-<h2 align="center"> BIOGRAPHY </h2>
+<h2 align="center"> WELCOME TO MY BLOG! </h2>
+<img align="right" width="25%" src="{{site.baseurl}}/assets/me.jpg"/>
 
 - My name is Cheng(Mason) Yu👨‍🎓
 - 💻Currently studying at the [**University of Maine**](https://umaine.edu/scis/) (Computer Science)

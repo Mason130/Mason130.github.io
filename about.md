@@ -1,12 +1,11 @@
 ---
 layout: page
-title: WELCOME TO MY BLOG!
 permalink: /about/
 ---
 
 -------------------------------------------------------
-<br/>
 <font1 align="center"> 👇This is all about me👇 </font1>
+<br/>
 <img align="right" width="25%" src="{{site.baseurl}}/assets/me.jpg"/>
 
 - 👨‍🎓My name is Cheng(Mason) Yu

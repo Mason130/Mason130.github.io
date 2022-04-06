@@ -4,7 +4,7 @@ permalink: /about/
 ---
 
 -------------------------------------------------------
-<font1 align="center"> 👇This is all about me👇 </font1>
+<font1 align="center"> Hi, there👋 </font1>
 <br/>
 <img align="right" width="25%" src="{{site.baseurl}}/assets/me.jpg"/>
 

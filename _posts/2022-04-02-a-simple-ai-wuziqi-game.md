@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI gomoku(wuziqi)"
-date:   2022-04-02 12:21:50 -0400
+date:   2022-03-13 12:21:50 -0400
 categories: jekyll update
 ---
 

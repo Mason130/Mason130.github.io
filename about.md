@@ -7,7 +7,9 @@ permalink: /about/
 <font1 align="center"> Hi, there👋 </font1>
 <br/>
 <img align="right" width="25%" src="{{site.baseurl}}/assets/me.jpg"/>
-
+<a href="/assets/Cheng_Yu_resume.pdf">
+    <span style="font-size: 18px; color: white"><strong>[My Resume]</strong></span>
+</a>
 - 👨‍🎓My name is Cheng(Mason) Yu
 - 💻Currently studying at the [**University of Maine**](https://umaine.edu/scis/) (Computer Science)
 - 🐳Previously studied at [**Shanghai Ocean University**](https://www.shou.edu.cn/eng/) (Marine Science)

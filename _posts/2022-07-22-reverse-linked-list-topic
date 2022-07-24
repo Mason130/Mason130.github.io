@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "AI gomoku(wuziqi)"
+date:   2022-03-13 12:21:50 -0400
+categories: jekyll update
+---
+
+## Notes for LeetCode problems 92, 206
+```
+The keypoint of solving such problems is reversing the pointer between two adjacent nodes.
+```
+### LC 206
+
+### LC 92

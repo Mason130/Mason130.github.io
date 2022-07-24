@@ -1,0 +1,36 @@
+font1 {
+    font-family: 'Lemonada', cursive;
+    font-size: 32px;
+    color: royalblue;
+}
+
+font2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+font3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: rgb(118, 59, 178);
+}
+
+body {
+    background-image: url('/assets/bg.png');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 0px; */
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    /* height: 75px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px; */
+}

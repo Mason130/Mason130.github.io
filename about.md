@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /about/
+permalink: /assets/about/about.html
 ---
 
 -------------------------------------------------------
-<h1 style="text-align: center; font-size: 18px; line-height: 110%;"><strong>You can find my resume here</strong></h1>
-<a href="/assets/Cheng_Yu_resume.pdf"><span style="display: block; text-align: center; font-size: 18px; color: white; line-height:20%"><strong>[My Resume]</strong></span></a>
+<h1 style="text-align: center; font-size: 20px; line-height: 110%;"><strong>You can find my resume here</strong></h1>
+<a href="/assets/resume/Cheng_Yu_resume.pdf"><span style="display: block; text-align: center; font-size: 15px; color: white; line-height:20%"><strong>[My Resume]</strong></span></a>
 <br/>
-<img align="right" width="32%" src="{{site.baseurl}}/assets/me.jpg"/>
+<img style="float: right; margin-right: 2px; margin-top: 5px;" width="32%" src="{{site.baseurl}}/assets/images/me.jpg"/>
 - Name: <strong>Cheng(Mason) Yu</strong>; Pronunciation: <strong>Chen Yoo</strong> 
 - Currently studying at the [**University of Maine**](https://umaine.edu/scis/) (Computer Science)
 - Previously studied at [**Shanghai Ocean University**](https://www.shou.edu.cn/eng/) (Marine Science)

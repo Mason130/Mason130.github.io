@@ -1,23 +1,18 @@
 ---
 layout: default
 ---
+<head>
+  <link rel="stylesheet" href="/assets/css_source/page.css">
+</head>
+
 <article class="post">
+
   <header class="post-header">
-    <style> 
-      body {
-        background-image: url('/assets/bg1.png');
-        height: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* margin-bottom: 0px; */
-    }
-    </style>
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content", style="color:rgb(0, 0, 0)">
     {{ content }}
   </div>
-
+  
 </article>

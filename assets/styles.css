@@ -7,13 +7,14 @@ font1 {
 font2 {
     font-family: 'Cairo', sans-serif;
     font-size: 36px;
+    font-weight: bold;
     color: black;
 }
 
 font3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 24px;
-    color: rgb(118, 59, 178);
+    color: black;
 }
 
 body {
@@ -26,11 +27,6 @@ body {
 }
 
 footer {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
-    /* height: 75px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px; */
 }

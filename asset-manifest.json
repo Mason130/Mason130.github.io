@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.63ffa884.css",
-    "main.js": "/static/js/main.2459a534.js",
+    "main.js": "/static/js/main.d769e4bc.js",
     "static/media/dark.jpg": "/static/media/dark.85fbc2d81eb844fe630e.jpg",
     "static/media/light.jpg": "/static/media/light.4823bd5bccd4fe7e27ff.jpg",
     "static/media/Cheng_Yu_Resume.pdf": "/static/media/Cheng_Yu_Resume.6e01f4646406955faf3c.pdf",
@@ -14,10 +14,10 @@
     "index.html": "/index.html",
     "static/media/sun.svg": "/static/media/sun.c55c13f24ef8ae70b6d9f0f68d9c8599.svg",
     "main.63ffa884.css.map": "/static/css/main.63ffa884.css.map",
-    "main.2459a534.js.map": "/static/js/main.2459a534.js.map"
+    "main.d769e4bc.js.map": "/static/js/main.d769e4bc.js.map"
   },
   "entrypoints": [
     "static/css/main.63ffa884.css",
-    "static/js/main.2459a534.js"
+    "static/js/main.d769e4bc.js"
   ]
 }

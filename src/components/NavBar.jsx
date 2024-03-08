@@ -132,7 +132,7 @@ export default function NavBar({ Logo }) {
                           className="nav-link"
                           onClick={closeExpanded}
                         >
-                          {el.name}
+                          <h5 className="fw-normal">{el.name}</h5>
                         </ScrollLink>
                       </Nav.Item>
                     );

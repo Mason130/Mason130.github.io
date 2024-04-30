@@ -1,3 +1,5 @@
+import {AUTO_MODE, DARK_MODE, DEFAULT_THEME, LIGHT_MODE} from "@constants/constants.ts";
+
 export function getDefaultHue(): number {
   const fallback = '250'
   const configCarrier = document.getElementById('config-carrier')
@@ -15,10 +17,9 @@ export function setHue(hue: number): void {
   if (!r) {
     return
   }
+  // @ts-ignore
   r.style.setProperty('--hue', hue)
 }
-
-export const LIGHT_MODE = 'light', DARK_MODE = 'dark', AUTO_MODE = 'auto'
 
 export function setTheme(theme: string): void {
   localStorage.setItem('theme', theme)
@@ -40,5 +41,5 @@ export function setTheme(theme: string): void {
 }
 
 export function getStoredTheme(): string {
-  return localStorage.getItem('theme') || AUTO_MODE
+  return localStorage.getItem('theme') || DEFAULT_THEME
 }

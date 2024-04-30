@@ -26,6 +26,7 @@ const oklchToHex = (str) => {
 export default defineConfig({
   site: "https://mason130.github.io",
   base: "/",
+  trailingSlash: "always",
   integrations: [
     tailwind(),
     swup({

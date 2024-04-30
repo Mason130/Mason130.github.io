@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'ChengY',
-  subtitle: 'Portfolio',
+  title: 'ChengYu',
+  subtitle: 'MickeyHouse',
   lang: 'en',
   themeHue: 250,
   banner: {

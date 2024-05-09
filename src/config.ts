@@ -30,6 +30,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
+      name: 'CV',
+      url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
+      external: true,
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/Mason130',
       external: true,
@@ -42,11 +47,11 @@ export const profileConfig: ProfileConfig = {
   name: 'Cheng(Mason) Yu',
   bio: 'MCS @ UVA, He/Him',
   links: [
-    {
-      name: 'User',
-      icon: 'fa6-regular:user',
-      url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
-    },
+    // {
+    //   name: 'User',
+    //   icon: 'fa6-regular:user',
+    //   url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',

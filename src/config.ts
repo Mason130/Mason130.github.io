@@ -17,10 +17,10 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [    // Leave this array empty to use the default favicon
     // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+    //   src: '/favicon/favicon-dark-128.png',    // Path of the favicon, relative to the /public directory
     //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+    //   sizes: '128x128',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    // },
   ]
 }
 
@@ -38,10 +38,15 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/db.png',
+  avatar: 'assets/images/me.png',
   name: 'Cheng(Mason) Yu',
   bio: 'MCS @ UVA, He/Him',
   links: [
+    {
+      name: 'User',
+      icon: 'fa6-regular:user',
+      url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
+    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
@@ -57,11 +62,6 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:twitter',
       url: 'https://twitter.com',
     },
-    // {
-    //   name: 'Steam',
-    //   icon: 'fa6-brands:steam',
-    //   url: 'https://store.steampowered.com',
-    // },
   ],
 }
 

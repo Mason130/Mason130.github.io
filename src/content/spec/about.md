@@ -6,6 +6,8 @@
 **My GH Stats**
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mason130&theme=dark&card_width=500)
 
+::github{repo="Mason130/django-site"}
+
 ### Sources of images used in this site
 - [The City of Tears](https://www.pixiv.net/en/artworks/117714966) by [柠檬原](https://www.pixiv.net/en/users/11403784)
 

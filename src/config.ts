@@ -9,11 +9,14 @@ import { LinkPreset } from './types/config'
 export const siteConfig: SiteConfig = {
   title: 'Cheng Yu',
   subtitle: 'Blog',
-  lang: 'en',
-  themeHue: 250,
+  lang: 'en', // 'en', 'zh_CN', 'zh_TW', 'ja'
+  themeColor: {
+    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: false,     // Hide the theme color picker for visitors
+  },
   banner: {
     enable: true,
-    src: 'assets/images/banner.png',
+    src: 'assets/images/banner.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   },
   favicon: [    // Leave this array empty to use the default favicon
     // {
@@ -31,19 +34,20 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'CV',
-      url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
+      // url: 'https://portfolio-rho-kohl-16.vercel.app/static/media/Cheng_Yu_Resume.014ee7a516b995da9ca4.pdf',
+      url: '/docs/Cheng_Yu_Resume.pdf',
       external: true,
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/Mason130',
-      external: true,
+      url: 'https://github.com/Mason130', // Internal links should not include the base path, as it is automatically added
+      external: true, // Show an external link icon and will open in a new tab
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/me.png',
+  avatar: 'assets/images/me.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Cheng(Mason) Yu',
   bio: 'MCS @ UVA, He/Him',
   links: [
@@ -54,7 +58,7 @@ export const profileConfig: ProfileConfig = {
     // },
     {
       name: 'GitHub',
-      icon: 'fa6-brands:github',
+      icon: 'fa6-brands:github', // Visit https://icones.js.org/ for icon codes. You will need to install the corresponding icon set if it's not already included. `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://github.com/Mason130',
     },
     {
